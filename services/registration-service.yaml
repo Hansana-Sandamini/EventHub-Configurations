@@ -4,7 +4,7 @@ spring:
             enabled: true
 
     datasource:
-        url: jdbc:mysql://localhost:3306/db-eventhub?createDatabaseIfNotExist=true
+        url: jdbc:mysql://localhost:3306/db-eventhub?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
         username: root
         password: mysql
         driver-class-name: com.mysql.cj.jdbc.Driver
