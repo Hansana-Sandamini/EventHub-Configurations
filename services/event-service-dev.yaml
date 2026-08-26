@@ -4,7 +4,12 @@ spring:
             enabled: true
 
     mongodb:
-        uri: mongodb://root:TR5A1paQlCx8aR9PwiLz1Qa3iKs-luNVsE2DRgfziyaB1BIE@40dc7c0f-43f9-403a-b6ee-90fa9df13383.asia-south1.firestore.goog:443/db-eventhub?loadBalanced=true&tls=true&authMechanism=SCRAM-SHA-256&retryWrites=false
+        host: localhost
+        port: 13500
+        database: eventhub
+        username: root
+        password: mongodb
+        authentication-database: admin
 
 server:
     port: 0
