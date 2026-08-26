@@ -1,0 +1,19 @@
+spring:
+    mvc:
+        problemdetails:
+            enabled: true
+
+    mongodb:
+        host: localhost
+        port: 13500
+        database: eventhub
+        username: root
+        password: mongodb
+        authentication-database: admin
+
+server:
+    port: 8001
+
+app:
+    storage:
+        path: ${user.home}/.ijse/eventhub/events
