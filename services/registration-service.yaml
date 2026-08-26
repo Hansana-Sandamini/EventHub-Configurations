@@ -18,5 +18,9 @@ spring:
                 dialect: org.hibernate.dialect.MySQLDialect
                 format_sql: true
 
+eureka:
+    instance:
+        instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+
 server:
-    port: 8002
+    port: 0

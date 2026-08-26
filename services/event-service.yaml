@@ -12,7 +12,11 @@ spring:
         authentication-database: admin
 
 server:
-    port: 8001
+    port: 0
+
+eureka:
+    instance:
+        instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
 
 app:
     storage:
