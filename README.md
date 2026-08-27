@@ -7,6 +7,18 @@ Centralized configuration repository for the **EventHub - Event & Ticketing Plat
 
 ---
 
+## 👨‍🎓 Student & Project Metadata
+
+| Requirement | Details |
+|---|---|
+| **Student Name** | Hansana Sandamini |
+| **Student Number / ID** | `241722055` |
+| **Slack Handle** | `@Hansana_Sandamini` |
+| **GCP Project ID** | `eventhub-project-506715` |
+| **Module** | ITS 2130 - Enterprise Cloud Architecture (ECA) |
+
+---
+
 ## 📁 Repository Directory Structure
 
 ```
